@@ -1,0 +1,26 @@
+{
+	"name": "my-pg-vite-project",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "npm-run-all --parallel watch refresh",
+		"refresh": "vite",
+		"watch": "vite build --watch && dev",
+		"build": "vite build"
+	},
+	"devDependencies": {
+		"@mdi/js": "^7.1.96",
+		"npm-run-all": "^4.1.5",
+		"rollup-plugin-visualizer": "^5.8.3",
+		"sass": "^1.56.2",
+		"vite": "^4.0.0"
+	},
+	"dependencies": {
+		"@popperjs/core": "^2.11.6",
+		"bootstrap": "^5.2.3",
+		"canvas-confetti": "^1.6.0",
+		"vue": "^3.2.45",
+		"vuetify": "^3.0.4"
+	}
+}
